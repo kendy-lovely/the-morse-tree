@@ -1,8 +1,8 @@
 # the morse tree
 
-## Getting Started
+## getting started
 
-Open `index.html` in your web browser and start editing `sketch.js`.
+open [https://morse.kendy.online/](https://morse.kendy.online/) in your web browser and start typing !
 
 ## Running Locally
 
