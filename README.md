@@ -1,4 +1,4 @@
-# teknosikil
+# the morse tree
 
 ## Getting Started
 
