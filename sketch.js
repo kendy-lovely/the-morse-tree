@@ -68,11 +68,11 @@ function draw() {
     morse.drawBaseNodes(morse.root, width/2, height/2+50);
 
     // logic for the fade out thingy
-    history = history.filter(e => e.times <= lifetime);
-    history.forEach(e => {
+    for ([i, e] of history.entries()) {
         e.fun(255 - (e.times / lifetime) * 255);
         e.times += 1;
-    });
+        if (e.times > lifetime) history.splice(i, 1);
+    }
   
     // draw the final one anyways
     morse.drawNodes(
